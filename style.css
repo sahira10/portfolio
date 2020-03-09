@@ -1,0 +1,455 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input, select {
+  vertical-align: middle;
+}
+
+/*My code*/
+* {
+  text-decoration: none;
+}
+
+main {
+  padding-top: 100px;
+
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  width: 100%;
+  height: 100px;
+}
+
+
+header .header-brand {
+  font-family: Signika;
+  font-size: 38px;
+  font-weight: 900;
+  color: #2F4F4F;
+  text-transform: bold;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 0;
+}
+
+header .header-brand:hover{
+  opacity: 0.5;
+}
+
+header nav ul {
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+header nav ul li {
+  display: inline-block;
+  float: left;
+  list-style: none;
+  padding: 16px;
+}
+
+header nav ul li a {
+  font-family: Signika;
+  font-size: 16px;
+  color: #111;
+  text-transform: uppercase;
+}
+
+header nav ul li a:hover{
+  opacity: 0.5;
+}
+
+header .header-cases {
+  display: none;
+}
+
+@media only screen and (min-width: 1000px) {
+  header .header-brand {
+    margin: 31px 0;
+    text-align: left;
+    line-height: 38px;
+    border-right: 3px solid #111;
+    padding: 0 20px 0 20px;
+    float: left;
+  }
+
+  header nav ul {
+    margin: 31px 10px;
+    float: left
+  }
+
+  header .header-cases {
+    display: block;
+    font-family: Signika;
+    font-size: 16px;
+    color: #111;
+    border: 1px solid #111;
+    padding: 0 20px;
+    line-height: 38px;
+    float: right;
+    margin: 33px 40px;
+  }
+}
+
+/*Index*/
+
+.index-banner {
+  width: 100%;
+  height: 300px;
+  background-image: url('img/img.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: table;
+}
+
+.vertical-table {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.index-banner h2 {
+  font-family: Signika;
+  font-size: 60px;
+  font-weight: 900;
+  line-height;
+  80px;
+  color: #fff;
+  text-shadow: 3px 3px 8px #111;
+  text-align: center;
+}
+
+.index-banner h1 {
+  font-family: Signika;
+  font-size: 24px;
+  font-weight: 100;
+  font-style: italic;
+  line-height: 40px;
+  color: #fff;
+  text-shadow: 4px 4px 10px #000;
+  text-align: center;
+}
+
+.index-links div {
+  margin: 20px 20px 0;
+  width: calc(100% - 40px);
+  height: 100px;
+  background-color: #F8F8FF;
+}
+
+.index-links h3 {
+color: #111;
+font-size: 20px;
+font-family: Signika;
+text-align: center;
+font-weight: 900;
+line-height: 100px;
+text-transform: uppercase;
+}
+
+.cover-letter{
+  width:900px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.cover-letter h3{
+  color: #111;
+  font-size: 20px;
+  font-family: Signika;
+  text-align: center;
+  font-weight: 600;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  text-transform: uppercase;
+}
+
+.cover-letter article div p{
+  font-family: Signika;
+  line-height: 28px;
+  font-size: 16px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .wrapper {
+    width: 600px;
+    margin: 0 auto;
+  }
+
+  .index-banner {
+    height: 360px;
+  }
+
+  .index-banner h1 {
+    display: block;
+    width: 450px;
+    margin: 0 auto;
+    padding-top: 10px;
+  }
+
+  .index-links div {
+    margin: 10px 10px 0;
+    height: 100px;
+    background-color: #F8F8FF;
+  }
+
+  .index-boxline-square {
+    height: 250px;
+    width: calc(25% - 20px);
+  }
+}
+
+/*cases*/
+
+.header-cases:hover{
+  opacity: 0.5;
+}
+.case-links {
+  margin: 10px;
+  overflow: hidden;
+}
+
+.case-links .wrapper div {
+  float: left;
+  width: 130px;
+  margin: 20px 10px 0;
+  height: 140px;
+  background-color: #F8F8FF;
+}
+
+.case-links h2 {
+  font-family: Signika;
+  font-size: 28px;
+  font-weight: 600;
+  color: #111;
+  padding-top: 40px;
+  text-transform: uppercase;
+}
+
+.case-links p {
+  font-family: Signika;
+  font-weight: 600;
+  font-size: 16px;
+  color: #111;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 48%;
+}
+
+.cv-doc{
+  width:800px;
+  margin: 0 auto;
+}
+
+.cv-doc h2{
+  width:600px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.cv-doc p{
+  font-size: 16px;
+  font-family: Signika;
+  line-height: 15px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.case-vid{
+  display: block;
+  margin: 0 auto;
+  padding-left: 35px;
+}
+
+.case-vid h2{
+  text-align: center;
+  font-size: 25px;
+  font-family: Signika;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.case-vid article h3{
+  font-size: 16px;
+  font-family: Signika;
+  text-align: left;
+  padding-bottom: 5px;
+  padding-top: 15px;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.case-vid article div p{
+  text-align: justify;
+  font-size: 16px;
+  font-family: Signika;
+  color: #111;
+  column-count: 3;
+  column-gap: 15px;
+  padding-bottom: 10px;
+}
+
+/*contact-banner*/
+.contact-banner {
+  background-color: #F8F8FF;
+  margin: 10px 10px 0;
+  height: 120px;
+}
+
+.contact-banner h3 {
+  text-align: center;
+  font-size: 24px;
+  padding-top: 30px;
+  font-family: ariel;
+}
+
+.contact-banner p {
+  text-align: center;
+  font-size: 16px;
+  font-family: ariel;
+  padding-top: 10px;
+  line-height: 10px;
+}
+
+/*FOOTER*/
+footer {
+  padding: 20px 20px;
+  width: calc (100% - 40px);
+  background-color: #2F4F4F;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+footer ul {
+  width: fit-content;
+  float: left;
+  padding-left: 10px;
+}
+
+footer ul li {
+  display: block;
+  list-style: none;
+}
+
+footer ul li a {
+  font-family: Signika;
+  font-size: 16px;
+  color: #fff;
+  line-height: 30px;
+}
+
+.footer-symbol {
+  float: right;
+  width: 50px;
+}
+
+.footer-symbol img {
+  width: 100%;
+}
